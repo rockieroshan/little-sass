@@ -1,0 +1,101 @@
+#main-nav {
+  background: #032f3e; }
+  #main-nav ul {
+    width: 100%; }
+    #main-nav ul:after {
+      content: "";
+      display: block;
+      clear: both; }
+    #main-nav ul li {
+      float: left;
+      width: 16.66667%; }
+    #main-nav ul a {
+      color: #f8f9fb;
+      text-decoration: none;
+      padding: 16px;
+      display: block;
+      text-align: center; }
+      #main-nav ul a:hover {
+        background-color: #04455b; }
+
+section h1 {
+  font-size: 24px;
+  color: #032f3e; }
+
+.lead-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+  text-align: right; }
+  .lead-banner .banner-content {
+    position: absolute;
+    top: 50px;
+    width: 100%; }
+  .lead-banner img {
+    width: 100%; }
+  .lead-banner span {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold; }
+  .lead-banner span.title {
+    font-weight: bold;
+    margin-bottom: 30px; }
+
+.lessons-banner {
+  width: 100%;
+  position: relative;
+  color: white; }
+  .lessons-banner .banner-content {
+    position: absolute;
+    top: 50px;
+    width: 100%; }
+  .lessons-banner img {
+    width: 100%; }
+  .lessons-banner span {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold; }
+  .lessons-banner span.title {
+    font-weight: bold;
+    margin-bottom: 30px; }
+  .lessons-banner li {
+    text-transform: uppercase;
+    font-size: 20px;
+    max-width: 500px;
+    margin: 60px 0; }
+
+#services {
+  margin-bottom: 60px; }
+  #services li {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    width: 33.33333; }
+    #services li:hover {
+      color: red; }
+  #services img {
+    width: 60%;
+    margin: 20px 20%; }
+  #services a {
+    text-decoration: none;
+    color: #032f3e;
+    font-weight: bold; }
+    #services a:hover {
+      color: #04455b; }
+  #services ul:after {
+    content: '';
+    display: block;
+    clear: both;
+    cursor: pointer;
+    background-color: brown; }
+
+@projects li {
+  float: left;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  width: 13.33333%;
+  :nth-child(6n) {
+    margin-right: 0; }
+  img {
+    width: 100%; } }
